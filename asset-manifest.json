@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/starwars-app/static/css/main.676407f3.chunk.css",
+    "main.js": "/starwars-app/static/js/main.79e7f3b2.chunk.js",
+    "main.js.map": "/starwars-app/static/js/main.79e7f3b2.chunk.js.map",
+    "runtime-main.js": "/starwars-app/static/js/runtime-main.07834cc5.js",
+    "runtime-main.js.map": "/starwars-app/static/js/runtime-main.07834cc5.js.map",
+    "static/js/2.4fd06696.chunk.js": "/starwars-app/static/js/2.4fd06696.chunk.js",
+    "static/js/2.4fd06696.chunk.js.map": "/starwars-app/static/js/2.4fd06696.chunk.js.map",
+    "index.html": "/starwars-app/index.html",
+    "static/css/main.676407f3.chunk.css.map": "/starwars-app/static/css/main.676407f3.chunk.css.map",
+    "static/js/2.4fd06696.chunk.js.LICENSE.txt": "/starwars-app/static/js/2.4fd06696.chunk.js.LICENSE.txt",
+    "static/media/cross-ico.957b1848.svg": "/starwars-app/static/media/cross-ico.957b1848.svg",
+    "static/media/like-ico-clicked.4c4725c1.svg": "/starwars-app/static/media/like-ico-clicked.4c4725c1.svg",
+    "static/media/like-ico.665ede1a.svg": "/starwars-app/static/media/like-ico.665ede1a.svg",
+    "static/media/App.css": "/starwars-app/static/media/night-space-sky.58abda24.jpg",
+    "static/media/preloader.52c7c6d4.svg": "/starwars-app/static/media/preloader.52c7c6d4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07834cc5.js",
+    "static/js/2.4fd06696.chunk.js",
+    "static/css/main.676407f3.chunk.css",
+    "static/js/main.79e7f3b2.chunk.js"
+  ]
+}
