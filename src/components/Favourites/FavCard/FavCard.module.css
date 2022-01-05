@@ -1,0 +1,26 @@
+.character {
+    text-decoration: none;
+}
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+.name {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+}
+
+.card {
+    background-color: gray
+}
+
+.likeIco {
+    z-index: 999;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

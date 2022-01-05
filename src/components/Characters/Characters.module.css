@@ -1,0 +1,92 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.infoHeader{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px white solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.headerText {
+    color: white;
+    font-size: 30px;
+    padding-right: 7px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 25px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.cardInfo {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 25px;
+    background-color: WHITE;
+    border-radius: 10px;
+}
+
+.infoImage {
+    border-radius: 10px 0 0 10px;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.info {
+    margin: 20px 20px 20px 0;
+}
+
+.name{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.desc {
+    color: gray;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+    .cardInfo {
+
+        grid-template-columns: 40% 60%;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .cardInfo {
+        
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+    }
+}
